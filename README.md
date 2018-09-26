@@ -15,3 +15,4 @@ Add new subfolders in [Dir] -> "Key", use a comma to separate.
 ## Todos (already considered)
 - Refactor
 - Make it faster
+- Use until now unused 404 file comparison to save time
