@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\Error404File">
+      <UniqueIdentifier>{ebc50844-205f-4d3c-960f-fe2121e6821a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Config">
+      <UniqueIdentifier>{14a3c530-bcc0-4bcb-9844-352cdb7cf958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Downloader">
+      <UniqueIdentifier>{958fcc9e-a549-4ea2-9e84-d81fdd5db4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Downloadable">
+      <UniqueIdentifier>{4a1c87b0-4f97-4b95-9b4b-7b258c2f49df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="error404file.cpp">
+      <Filter>src\Error404File</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>src\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="downloader.cpp">
+      <Filter>src\Downloader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="404.html">
+      <Filter>res</Filter>
+    </None>
+    <None Include="config.ini">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="error404file.h">
+      <Filter>src\Error404File</Filter>
+    </QtMoc>
+    <QtMoc Include="config.h">
+      <Filter>src\Config</Filter>
+    </QtMoc>
+    <QtMoc Include="downloader.h">
+      <Filter>src\Downloader</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="downloadable.h">
+      <Filter>src\Downloadable</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

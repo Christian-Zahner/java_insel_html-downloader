@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/qt,web,c++,images,windows,archive,archives,visualstudio,compressedarchive
+# Created by https://www.gitignore.io/api/qt,web,c++,images,windows,archive,archives,visualstudio,compressedarchive,font
 
 ### Archive ###
 
@@ -223,6 +223,12 @@
 # Archiver with a compression algorithm based on the Burrows-Wheeler transform method.
 *.zz
 
+
+### Font ###
+*.fnt
+*.fon
+*.otf
+*.ttf
 
 ### Images ###
 # JPEG
@@ -693,4 +699,4 @@ ASALocalRun/
 .localhistory/
 
 
-# End of https://www.gitignore.io/api/qt,web,c++,images,windows,archive,archives,visualstudio,compressedarchive
+# End of https://www.gitignore.io/api/qt,web,c++,images,windows,archive,archives,visualstudio,compressedarchive,font
