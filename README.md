@@ -2,6 +2,15 @@
 This program helps to download whole html content from book "Java ist auch eine Insel" from url "http://openbook.rheinwerk-verlag.de/javainsel/".  
 It takes all html files, related image, css and js files.
 
+# Build
+The software was developed, tested and built on:
+- Windows x64 machine
+- [Microsoft Visual Studio 2017](https://visualstudio.microsoft.com)
+- [Qt 5.11 msvc2017 x64](https://www.qt.io/download)
+
+# Binaries
+Coming soon
+
 ## Future versions of the book
 It should work in future versions of this html book.  
 Everytime a new book edition is being released, you can use this tool to download the files;
