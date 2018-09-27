@@ -6,7 +6,7 @@ It takes all html files, related image, css and js files.
 The software was developed, tested and built on:
 - Windows x64 machine
 - [Microsoft Visual Studio 2017](https://visualstudio.microsoft.com)
-- [Qt 5.11 msvc2017 x64](https://www.qt.io/download)
+- [Qt 5.11.2 msvc2017 x64 and msvc2015 x86](https://www.qt.io/download)
 
 # Binaries
 [Download x86 v1.0.0](https://1drv.ms/u/s!AujRv5FSASnagvQMwtwc5-azU5mOyw)  
