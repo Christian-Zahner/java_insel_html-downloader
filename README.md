@@ -9,7 +9,8 @@ The software was developed, tested and built on:
 - [Qt 5.11 msvc2017 x64](https://www.qt.io/download)
 
 # Binaries
-Coming soon
+[Download x86 v1.0.0](https://1drv.ms/u/s!AujRv5FSASnagvQMwtwc5-azU5mOyw)  
+[Download x64 v1.0.0](https://1drv.ms/u/s!AujRv5FSASnagvQLa0leAtm2Lbb-YA)
 
 ## Future versions of the book
 It should work in future versions of this html book.  
