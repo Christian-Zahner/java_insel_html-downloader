@@ -5,6 +5,8 @@ It takes all html files, related image, css and js files.
 Please support the author and the publishers and buy the book.
 This tool is especially addressed to poor students. ;)
 
+[![Buy me a coffee](https://i.imgur.com/Z1FmtML.png)](https://www.buymeacoffee.com/GRZ9x0mKe)
+
 # Build
 The software was developed, tested and built on:
 - Windows x64 machine
