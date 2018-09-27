@@ -2,6 +2,9 @@
 This program helps to download whole html content from book "Java ist auch eine Insel" from url "http://openbook.rheinwerk-verlag.de/javainsel/".  
 It takes all html files, related image, css and js files.
 
+Please support the author and the publishers and buy the book.
+This tool is especially addressed to poor students. ;)
+
 # Build
 The software was developed, tested and built on:
 - Windows x64 machine
