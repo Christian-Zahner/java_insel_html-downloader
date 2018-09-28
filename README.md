@@ -16,8 +16,8 @@ The software was developed, tested and built on:
 Further it should work on linux and macOS due to cross platform ability of Qt.
 
 # Binaries
-[Download win x86 v1.0.0](https://1drv.ms/u/s!AujRv5FSASnagvQMwtwc5-azU5mOyw)  
-[Download win x64 v1.0.0](https://1drv.ms/u/s!AujRv5FSASnagvQLa0leAtm2Lbb-YA)
+[Download win x86 v1.0.1](https://1drv.ms/u/s!AujRv5FSASnagvQcCtuHMC7gUoONEg)  
+[Download win x64 v1.0.1](https://1drv.ms/u/s!AujRv5FSASnagvQbFcIuuQf3MTks0Q)
 
 # Future versions of the book
 It should work in future versions of this html book.  
@@ -29,6 +29,5 @@ Change version of output folder in [Dir] -> "Output".
 Add new subfolders in [Dir] -> "Key", use a comma to separate.
 
 # Todos (already considered)
-- Refactor
 - Make it faster
-- Use until now unused 404 file comparison to save time
+- Use 404 file for making it faster
