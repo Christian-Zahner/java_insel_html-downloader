@@ -9,7 +9,17 @@ class Config : public QObject {
 public:
     bool serialize();
 
-    QString getGeneralUrl() const;
+    const QString getFileName() const;
+
+    QString getGeneralHtml() const;
+
+    QString getIndexHtml() const;
+
+    QString getIndexHtml2() const;
+
+    QString getA001Html() const;
+
+    QString getFileExt() const;
 
     QString getOutputDir() const;
 
@@ -18,7 +28,17 @@ public:
     QStringList getDirectories() const;
 
 private:
-    QString generalUrl_;
+    const QString fileName_ = "config.ini";
+
+    QString generalHtml_;
+
+    QString indexHtml_;
+
+    QString indexHtml2_;
+
+    QString a001Html_;
+
+    QString fileExt_;
 
     QString outputDir_;
 

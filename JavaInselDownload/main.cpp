@@ -1,16 +1,16 @@
 #include <QtCore/QCoreApplication>
-
 #include <iostream>
 
 #include "downloader.h"
 
 int main(int argc, char** argv)
 {
-    QCoreApplication a(argc, argv);
-    
-    std::cout << "Java ist auch eine Insel HTML downloader - 1.0.0\n";
+    QCoreApplication application(argc, argv);
+
+    std::cout << "Java ist auch eine Insel HTML downloader - 1.0.1\n";
+
     Downloader downloader;
     downloader.executeDownload();
 
-    return a.exec();
+    return application.exec();
 }
