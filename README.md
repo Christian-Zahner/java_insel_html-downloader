@@ -16,8 +16,8 @@ The software was developed, tested and built on:
 Further it should work on linux and macOS due to cross platform ability of Qt.
 
 # Binaries
-[Download win x86 v1.0.1](https://1drv.ms/u/s!AujRv5FSASnagvQcCtuHMC7gUoONEg)  
-[Download win x64 v1.0.1](https://1drv.ms/u/s!AujRv5FSASnagvQbFcIuuQf3MTks0Q)
+[Download win x86 v1.0.2](https://1drv.ms/u/s!AujRv5FSASnagvkh81CithVn9cBkjw)  
+[Download win x64 v1.0.2](https://1drv.ms/u/s!AujRv5FSASnagvkikjRGCmJLni-wAw)
 
 # Future versions of the book
 It should work in future versions of this html book.  
