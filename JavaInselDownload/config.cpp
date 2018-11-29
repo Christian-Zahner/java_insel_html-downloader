@@ -8,6 +8,7 @@
 bool Config::serialize() {
     if (!QFile::exists(fileName_)) {
         std::cerr << "File " << qPrintable(fileName_) << " does not exist.\nAborting the download.\n";
+        return false;
     }
 
     QSettings settings(fileName_, QSettings::Format::IniFormat);
@@ -26,13 +27,45 @@ bool Config::serialize() {
     directories_ = settings.value("Directories").toStringList();
     settings.endGroup();
 
-    return !generalHtml_.isEmpty()
-        && !indexHtml_.isEmpty()
-        && !indexHtml2_.isEmpty()
-        && !fileExt_.isEmpty()
-        && !outputDir_.isEmpty()
-        && !dataDir_.isEmpty()
-        && !directories_.isEmpty();
+    auto result = true;
+    QString missingValues;
+    if (generalHtml_.isEmpty()) {
+        missingValues += " General";
+        result = false;
+    }
+    if (indexHtml_.isEmpty()) {
+        missingValues += " Index";
+        result = false;
+    }
+    if (indexHtml2_.isEmpty()) {
+        missingValues += " Index2";
+        result = false;
+    }
+    if (a001Html_.isEmpty()) {
+        missingValues += " A_001";
+        result = false;
+    }
+    if (fileExt_.isEmpty()) {
+        missingValues += " FileExt";
+        result = false;
+    }
+    if (outputDir_.isEmpty()) {
+        missingValues += " Output";
+        result = false;
+    }
+    if (dataDir_.isEmpty()) {
+        missingValues += " Data";
+        result = false;
+    }
+    if (directories_.isEmpty()) {
+        missingValues += " Directories";
+        result = false;
+    }
+    if (!result) {
+        std::cerr << "Could not read values " << missingValues.toStdString() << " from " 
+            << qPrintable(fileName_) << '\n';
+    }
+    return result;
 }
 
 const QString Config::getFileName() const
